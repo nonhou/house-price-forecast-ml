@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+*.log
+
+# 数据集体积大或含隐私，不入库，按 README 自备
+*.csv
+*.xls
+*.xlsx
+*.npz
+*.zip
+# 但保留可公开的小样本
+!data/sample_*.csv
